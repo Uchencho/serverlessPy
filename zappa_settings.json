@@ -5,6 +5,16 @@
         "aws_region" : "us-east-1",
         "project_name": "serverlesspy",
         "runtime": "python3.7",
-        "s3_bucket": "uchenchostorage"
+        "s3_bucket": "uchenchostorage",
+        "endpoint_configuration": ["REGIONAL"],
+        "keep_warm": false,
+        "lambda_description": "Django test application",
+        "cors": true,
+        "aws_environment_variables" : {"key" : "This will show up on aws console"},
+        "apigateway_description": "Django serverless proxy API",
+        "environment_variables": {  "key" : "This is local env",
+                                    "ENV": "AWS",
+                                    "CLOUD_KEY" : "Some long value"
+                                }
     }
 }
