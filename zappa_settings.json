@@ -1,0 +1,10 @@
+{
+    "staging": {
+        "django_settings": "serverlessPy.settings",
+        "profile_name": "default",
+        "aws_region" : "us-east-1",
+        "project_name": "serverlesspy",
+        "runtime": "python3.7",
+        "s3_bucket": "uchenchostorage"
+    }
+}
